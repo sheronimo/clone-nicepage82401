@@ -45,4 +45,32 @@ body {
 	margin: 1rem 0;
 }
 
+/* Contact Form */
+.input-text {
+	display: block;
+	width: 100%;
+	background: transparent;
+	padding: 1rem;
+	border: 2px solid #333;
+	margin: 1.3rem 0;
+}
+
+.input-text::placeholder,
+.input-text::-moz-placeholder,
+.input-text::-webkit-input-placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+
+.textarea {
+	height: 150px;
+}
+
+.btn {
+	display: inline-block;
+	background: transparent;
+	padding: 1rem 2rem;
+	border: 2px solid #333;
+	border-radius: 5px;
+	cursor: pointer;
 }
