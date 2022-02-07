@@ -28,4 +28,21 @@ body {
 	text-align: center;
 }
 
+
+/* Contact Details */
+.detail {
+	margin: 1rem 0;
+}
+
+.heading {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.subheading {
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin: 1rem 0;
+}
+
 }
